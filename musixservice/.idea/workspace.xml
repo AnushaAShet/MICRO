@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9a19bf6-e3a1-465a-a2b0-87a71d75a3b8" name="Default Changelist" comment="" />
+    <list default="true" id="a9a19bf6-e3a1-465a-a2b0-87a71d75a3b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/stackroute/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/stackroute/domain/User.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -310,6 +313,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
