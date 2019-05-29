@@ -14,6 +14,14 @@ import java.util.List;
     @RequestMapping("api/v1/")
     public class TrackControl {
         private TrackService trackService;
+//        @Value("${app.title}")
+//        private String appTitle;
+//
+//        @GetMapping("value")
+//        public String getValue()
+//        {
+//            return appTitle;
+//        }
 
 
         @Autowired
