@@ -14,14 +14,7 @@ import java.util.List;
     @RequestMapping("api/v1/")
     public class TrackControl {
         private TrackService trackService;
-        @Value("${app.title}")
-        private String appTitle;
 
-        @GetMapping("value")
-        public String getValue()
-        {
-            return appTitle;
-        }
 
         @Autowired
 
@@ -93,11 +86,11 @@ import java.util.List;
         }
 
 
-        @RequestMapping(value = "track/{trackName}", method = RequestMethod.GET)
-        public ResponseEntity<List<Track>> getTrackByName(@PathVariable("trackName") String trackName) throws Exception
-        {
-            List<Track> track1=trackService.getTrackByName(trackName);
-            return new ResponseEntity<List<Track>>(track1, HttpStatus.OK);
-        }
+//        @RequestMapping(value = "track/{trackName}", method = RequestMethod.GET)
+//        public ResponseEntity<List<Track>> getTrackByName(@PathVariable("trackName") String trackName) throws Exception
+//        {
+//            List<Track> track1=trackService.getTrackByName(trackName);
+//            return new ResponseEntity<List<Track>>(track1, HttpStatus.OK);
+//        }
 
     }
